@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9532" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MSHomePageViewController" customModule="matchScore" customModuleProvider="target">
+            <connections>
+                <outlet property="pageScroll" destination="Td6-6X-dtU" id="hpY-09-MnQ"/>
+                <outlet property="scrollView" destination="mDY-5f-8qt" id="4Yt-Bu-4zx"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mDY-5f-8qt">
+                    <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="584" id="TJb-ps-eEZ">
+                            <variation key="widthClass=compact" constant="600"/>
+                        </constraint>
+                        <constraint firstAttribute="width" constant="384" id="nso-rc-r8K">
+                            <variation key="widthClass=compact" constant="400"/>
+                        </constraint>
+                    </constraints>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="TJb-ps-eEZ"/>
+                            <exclude reference="nso-rc-r8K"/>
+                        </mask>
+                    </variation>
+                    <variation key="widthClass=compact">
+                        <mask key="constraints">
+                            <include reference="TJb-ps-eEZ"/>
+                            <include reference="nso-rc-r8K"/>
+                        </mask>
+                    </variation>
+                </scrollView>
+                <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="Td6-6X-dtU">
+                    <rect key="frame" x="-19" y="-18" width="39" height="37"/>
+                    <color key="tintColor" red="1" green="0.76470588240000004" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="37" id="AFG-nx-rWE"/>
+                        <constraint firstAttribute="width" constant="39" id="bq4-Na-eIe"/>
+                    </constraints>
+                    <color key="currentPageIndicatorTintColor" red="1" green="0.76470588240000004" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="AFG-nx-rWE"/>
+                            <exclude reference="bq4-Na-eIe"/>
+                        </mask>
+                    </variation>
+                    <variation key="widthClass=compact">
+                        <mask key="constraints">
+                            <include reference="AFG-nx-rWE"/>
+                            <include reference="bq4-Na-eIe"/>
+                        </mask>
+                    </variation>
+                </pageControl>
+            </subviews>
+            <color key="backgroundColor" red="0.34780173959999999" green="0.77301507479999998" blue="0.74123317020000001" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="mDY-5f-8qt" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="20F-OJ-cMV"/>
+                <constraint firstItem="Td6-6X-dtU" firstAttribute="centerX" secondItem="mDY-5f-8qt" secondAttribute="centerX" id="Aer-g3-Fnh"/>
+                <constraint firstItem="Td6-6X-dtU" firstAttribute="centerY" secondItem="mDY-5f-8qt" secondAttribute="centerY" id="WgP-Pz-B0Q">
+                    <variation key="widthClass=compact" constant="273.5"/>
+                </constraint>
+                <constraint firstItem="mDY-5f-8qt" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="XBy-Xy-zdC"/>
+            </constraints>
+            <variation key="default">
+                <mask key="subviews">
+                    <exclude reference="mDY-5f-8qt"/>
+                    <exclude reference="Td6-6X-dtU"/>
+                </mask>
+                <mask key="constraints">
+                    <exclude reference="20F-OJ-cMV"/>
+                    <exclude reference="XBy-Xy-zdC"/>
+                    <exclude reference="Aer-g3-Fnh"/>
+                    <exclude reference="WgP-Pz-B0Q"/>
+                </mask>
+            </variation>
+            <variation key="widthClass=compact">
+                <mask key="subviews">
+                    <include reference="mDY-5f-8qt"/>
+                    <include reference="Td6-6X-dtU"/>
+                </mask>
+                <mask key="constraints">
+                    <include reference="20F-OJ-cMV"/>
+                    <include reference="XBy-Xy-zdC"/>
+                    <include reference="Aer-g3-Fnh"/>
+                    <include reference="WgP-Pz-B0Q"/>
+                </mask>
+            </variation>
+            <point key="canvasLocation" x="366" y="403"/>
+        </view>
+    </objects>
+</document>

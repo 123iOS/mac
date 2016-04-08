@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		8732296B1CB514B90016F48A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8732296A1CB514B90016F48A /* AppDelegate.swift */; };
-		8732296D1CB514B90016F48A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8732296C1CB514B90016F48A /* ViewController.swift */; };
 		873229721CB514B90016F48A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 873229711CB514B90016F48A /* Assets.xcassets */; };
 		873229751CB514B90016F48A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873229731CB514B90016F48A /* LaunchScreen.storyboard */; };
 		873229A21CB51A280016F48A /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 8732297D1CB51A280016F48A /* bg.png */; };
@@ -49,12 +48,29 @@
 		873229C51CB51A280016F48A /* sample_team2.png in Resources */ = {isa = PBXBuildFile; fileRef = 873229A01CB51A280016F48A /* sample_team2.png */; };
 		873229C61CB51A280016F48A /* trap.9.png in Resources */ = {isa = PBXBuildFile; fileRef = 873229A11CB51A280016F48A /* trap.9.png */; };
 		873229C91CB51AC80016F48A /* MSHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873229C71CB51AC80016F48A /* MSHomeViewController.swift */; };
-		873229CA1CB51AC80016F48A /* MSHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 873229C81CB51AC80016F48A /* MSHomeViewController.xib */; };
 		873229CD1CB51C590016F48A /* menu1.png in Resources */ = {isa = PBXBuildFile; fileRef = 873229CC1CB51C590016F48A /* menu1.png */; };
 		873229CF1CB51DCA0016F48A /* whiteMenu.png in Resources */ = {isa = PBXBuildFile; fileRef = 873229CE1CB51DCA0016F48A /* whiteMenu.png */; };
 		873229D11CB51E600016F48A /* menu40.png in Resources */ = {isa = PBXBuildFile; fileRef = 873229D01CB51E600016F48A /* menu40.png */; };
 		873229D31CB51EB20016F48A /* menu32.png in Resources */ = {isa = PBXBuildFile; fileRef = 873229D21CB51EB20016F48A /* menu32.png */; };
 		873229D51CB51F690016F48A /* refresh32.png in Resources */ = {isa = PBXBuildFile; fileRef = 873229D41CB51F690016F48A /* refresh32.png */; };
+		873229D61CB5FFC50016F48A /* MSHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 873229C81CB51AC80016F48A /* MSHomeViewController.xib */; };
+		873229D81CB60A160016F48A /* button_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 873229D71CB60A160016F48A /* button_bg.png */; };
+		873229DA1CB60B0B0016F48A /* button_view_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 873229D91CB60B0B0016F48A /* button_view_bg.png */; };
+		873229DC1CB60C860016F48A /* online.png in Resources */ = {isa = PBXBuildFile; fileRef = 873229DB1CB60C860016F48A /* online.png */; };
+		873229DE1CB619060016F48A /* arrow30.png in Resources */ = {isa = PBXBuildFile; fileRef = 873229DD1CB619060016F48A /* arrow30.png */; };
+		873229E11CB62F130016F48A /* MSUpcomingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873229DF1CB62F130016F48A /* MSUpcomingViewController.swift */; };
+		873229E21CB62F130016F48A /* MSUpcomingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 873229E01CB62F130016F48A /* MSUpcomingViewController.xib */; };
+		873229E51CB637FE0016F48A /* MSHomeNoLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873229E31CB637FE0016F48A /* MSHomeNoLoginViewController.swift */; };
+		873229E61CB637FE0016F48A /* MSHomeNoLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 873229E41CB637FE0016F48A /* MSHomeNoLoginViewController.xib */; };
+		873229E81CB6659D0016F48A /* bg_upcoming.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 873229E71CB6659D0016F48A /* bg_upcoming.jpg */; };
+		873229EB1CB7A8550016F48A /* MSHomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873229E91CB7A8540016F48A /* MSHomePageViewController.swift */; };
+		873229EC1CB7A8550016F48A /* MSHomePageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 873229EA1CB7A8550016F48A /* MSHomePageViewController.xib */; };
+		873229F01CB7AE2D0016F48A /* MSFsPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873229EE1CB7AE2D0016F48A /* MSFsPageViewController.swift */; };
+		873229F11CB7AE2D0016F48A /* MSFsPageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 873229EF1CB7AE2D0016F48A /* MSFsPageViewController.xib */; };
+		873229F41CB7B8780016F48A /* MSScPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873229F21CB7B8780016F48A /* MSScPageViewController.swift */; };
+		873229F51CB7B8780016F48A /* MSScPageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 873229F31CB7B8780016F48A /* MSScPageViewController.xib */; };
+		873229F81CB7BDA90016F48A /* MsInitialPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873229F61CB7BDA90016F48A /* MsInitialPageViewController.swift */; };
+		873229F91CB7BDA90016F48A /* MsInitialPageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 873229F71CB7BDA90016F48A /* MsInitialPageViewController.xib */; };
 		B43461EE650ECE3EF6FCD9AB /* libPods-matchScore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DA9D09C8EA7E4007C65AC18B /* libPods-matchScore.a */; };
 /* End PBXBuildFile section */
 
@@ -62,7 +78,6 @@
 		3981565049A74C8CF2B91A69 /* Pods-matchScore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-matchScore.release.xcconfig"; path = "Pods/Target Support Files/Pods-matchScore/Pods-matchScore.release.xcconfig"; sourceTree = "<group>"; };
 		873229671CB514B90016F48A /* matchScore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = matchScore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8732296A1CB514B90016F48A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8732296C1CB514B90016F48A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		873229711CB514B90016F48A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		873229741CB514B90016F48A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873229761CB514B90016F48A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -110,6 +125,23 @@
 		873229D01CB51E600016F48A /* menu40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu40.png; sourceTree = "<group>"; };
 		873229D21CB51EB20016F48A /* menu32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu32.png; sourceTree = "<group>"; };
 		873229D41CB51F690016F48A /* refresh32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = refresh32.png; sourceTree = "<group>"; };
+		873229D71CB60A160016F48A /* button_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_bg.png; sourceTree = "<group>"; };
+		873229D91CB60B0B0016F48A /* button_view_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_view_bg.png; sourceTree = "<group>"; };
+		873229DB1CB60C860016F48A /* online.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = online.png; sourceTree = "<group>"; };
+		873229DD1CB619060016F48A /* arrow30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow30.png; sourceTree = "<group>"; };
+		873229DF1CB62F130016F48A /* MSUpcomingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSUpcomingViewController.swift; sourceTree = "<group>"; };
+		873229E01CB62F130016F48A /* MSUpcomingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MSUpcomingViewController.xib; sourceTree = "<group>"; };
+		873229E31CB637FE0016F48A /* MSHomeNoLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSHomeNoLoginViewController.swift; sourceTree = "<group>"; };
+		873229E41CB637FE0016F48A /* MSHomeNoLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MSHomeNoLoginViewController.xib; sourceTree = "<group>"; };
+		873229E71CB6659D0016F48A /* bg_upcoming.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg_upcoming.jpg; sourceTree = "<group>"; };
+		873229E91CB7A8540016F48A /* MSHomePageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSHomePageViewController.swift; sourceTree = "<group>"; };
+		873229EA1CB7A8550016F48A /* MSHomePageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MSHomePageViewController.xib; sourceTree = "<group>"; };
+		873229EE1CB7AE2D0016F48A /* MSFsPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSFsPageViewController.swift; sourceTree = "<group>"; };
+		873229EF1CB7AE2D0016F48A /* MSFsPageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MSFsPageViewController.xib; sourceTree = "<group>"; };
+		873229F21CB7B8780016F48A /* MSScPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSScPageViewController.swift; sourceTree = "<group>"; };
+		873229F31CB7B8780016F48A /* MSScPageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MSScPageViewController.xib; sourceTree = "<group>"; };
+		873229F61CB7BDA90016F48A /* MsInitialPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MsInitialPageViewController.swift; sourceTree = "<group>"; };
+		873229F71CB7BDA90016F48A /* MsInitialPageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MsInitialPageViewController.xib; sourceTree = "<group>"; };
 		AC46B16F230ECA153AC476CD /* Pods-matchScore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-matchScore.debug.xcconfig"; path = "Pods/Target Support Files/Pods-matchScore/Pods-matchScore.debug.xcconfig"; sourceTree = "<group>"; };
 		DA9D09C8EA7E4007C65AC18B /* libPods-matchScore.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-matchScore.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -156,14 +188,17 @@
 		873229691CB514B90016F48A /* matchScore */ = {
 			isa = PBXGroup;
 			children = (
+				873229ED1CB7ADFC0016F48A /* PageViewController */,
 				8732296A1CB514B90016F48A /* AppDelegate.swift */,
-				8732296C1CB514B90016F48A /* ViewController.swift */,
+				873229DF1CB62F130016F48A /* MSUpcomingViewController.swift */,
 				873229C71CB51AC80016F48A /* MSHomeViewController.swift */,
 				873229711CB514B90016F48A /* Assets.xcassets */,
 				873229731CB514B90016F48A /* LaunchScreen.storyboard */,
 				873229761CB514B90016F48A /* Info.plist */,
 				873229CB1CB51AF90016F48A /* User Interfaces */,
 				8732297C1CB51A280016F48A /* img src */,
+				873229E31CB637FE0016F48A /* MSHomeNoLoginViewController.swift */,
+				873229E41CB637FE0016F48A /* MSHomeNoLoginViewController.xib */,
 			);
 			path = matchScore;
 			sourceTree = "<group>";
@@ -171,6 +206,11 @@
 		8732297C1CB51A280016F48A /* img src */ = {
 			isa = PBXGroup;
 			children = (
+				873229E71CB6659D0016F48A /* bg_upcoming.jpg */,
+				873229DD1CB619060016F48A /* arrow30.png */,
+				873229DB1CB60C860016F48A /* online.png */,
+				873229D91CB60B0B0016F48A /* button_view_bg.png */,
+				873229D71CB60A160016F48A /* button_bg.png */,
 				873229D41CB51F690016F48A /* refresh32.png */,
 				873229D21CB51EB20016F48A /* menu32.png */,
 				873229D01CB51E600016F48A /* menu40.png */,
@@ -221,9 +261,33 @@
 		873229CB1CB51AF90016F48A /* User Interfaces */ = {
 			isa = PBXGroup;
 			children = (
+				873229E01CB62F130016F48A /* MSUpcomingViewController.xib */,
 				873229C81CB51AC80016F48A /* MSHomeViewController.xib */,
 			);
 			name = "User Interfaces";
+			sourceTree = "<group>";
+		};
+		873229ED1CB7ADFC0016F48A /* PageViewController */ = {
+			isa = PBXGroup;
+			children = (
+				873229FA1CB7C47D0016F48A /* UserInterfaces */,
+				873229E91CB7A8540016F48A /* MSHomePageViewController.swift */,
+				873229EA1CB7A8550016F48A /* MSHomePageViewController.xib */,
+				873229F61CB7BDA90016F48A /* MsInitialPageViewController.swift */,
+				873229EE1CB7AE2D0016F48A /* MSFsPageViewController.swift */,
+				873229F21CB7B8780016F48A /* MSScPageViewController.swift */,
+			);
+			name = PageViewController;
+			sourceTree = "<group>";
+		};
+		873229FA1CB7C47D0016F48A /* UserInterfaces */ = {
+			isa = PBXGroup;
+			children = (
+				873229F71CB7BDA90016F48A /* MsInitialPageViewController.xib */,
+				873229EF1CB7AE2D0016F48A /* MSFsPageViewController.xib */,
+				873229F31CB7B8780016F48A /* MSScPageViewController.xib */,
+			);
+			name = UserInterfaces;
 			sourceTree = "<group>";
 		};
 		F59B5F27D302CE88E549255D /* Frameworks */ = {
@@ -297,14 +361,17 @@
 			files = (
 				873229CF1CB51DCA0016F48A /* whiteMenu.png in Resources */,
 				873229BE1CB51A280016F48A /* icon_red_card.png in Resources */,
+				873229DC1CB60C860016F48A /* online.png in Resources */,
 				873229BA1CB51A280016F48A /* ic_triangle_home.png in Resources */,
 				873229A71CB51A280016F48A /* bg_F1_a2bacc.jpg in Resources */,
 				873229751CB514B90016F48A /* LaunchScreen.storyboard in Resources */,
+				873229F91CB7BDA90016F48A /* MsInitialPageViewController.xib in Resources */,
 				873229C31CB51A280016F48A /* menu.png in Resources */,
 				873229A41CB51A280016F48A /* bg_dark_grey.jpg in Resources */,
 				873229B61CB51A280016F48A /* ic_page_first.png in Resources */,
 				873229BB1CB51A280016F48A /* ic_vs.png in Resources */,
 				873229721CB514B90016F48A /* Assets.xcassets in Resources */,
+				873229EC1CB7A8550016F48A /* MSHomePageViewController.xib in Resources */,
 				873229BD1CB51A280016F48A /* ico_refresh.png in Resources */,
 				873229C21CB51A280016F48A /* login_banner.jpg in Resources */,
 				873229A21CB51A280016F48A /* bg.png in Resources */,
@@ -320,7 +387,10 @@
 				873229B91CB51A280016F48A /* ic_triangle_away.png in Resources */,
 				873229BF1CB51A280016F48A /* icon_sub_in.png in Resources */,
 				873229C11CB51A280016F48A /* icon_yellow_card.png in Resources */,
+				873229E61CB637FE0016F48A /* MSHomeNoLoginViewController.xib in Resources */,
 				873229AD1CB51A280016F48A /* bg_repeat.png in Resources */,
+				873229D81CB60A160016F48A /* button_bg.png in Resources */,
+				873229D61CB5FFC50016F48A /* MSHomeViewController.xib in Resources */,
 				873229AF1CB51A280016F48A /* grey_repeat_img.gif in Resources */,
 				873229A31CB51A280016F48A /* BG_all.jpg in Resources */,
 				873229B11CB51A280016F48A /* ic_arrow_double.png in Resources */,
@@ -329,14 +399,19 @@
 				873229C61CB51A280016F48A /* trap.9.png in Resources */,
 				873229A81CB51A280016F48A /* bg_f1_gp.jpg in Resources */,
 				873229B81CB51A280016F48A /* ic_reply.png in Resources */,
+				873229DA1CB60B0B0016F48A /* button_view_bg.png in Resources */,
 				873229AA1CB51A280016F48A /* bg_gp_top.jpg in Resources */,
 				873229B01CB51A280016F48A /* ic_arrow.png in Resources */,
+				873229F11CB7AE2D0016F48A /* MSFsPageViewController.xib in Resources */,
 				873229C51CB51A280016F48A /* sample_team2.png in Resources */,
-				873229CA1CB51AC80016F48A /* MSHomeViewController.xib in Resources */,
+				873229F51CB7B8780016F48A /* MSScPageViewController.xib in Resources */,
 				873229A51CB51A280016F48A /* bg_detail_bot.jpg in Resources */,
+				873229E21CB62F130016F48A /* MSUpcomingViewController.xib in Resources */,
 				873229AB1CB51A280016F48A /* bg_live.jpg in Resources */,
 				873229B51CB51A280016F48A /* ic_goal.png in Resources */,
 				873229AE1CB51A280016F48A /* bg_trapezoid.gif in Resources */,
+				873229DE1CB619060016F48A /* arrow30.png in Resources */,
+				873229E81CB6659D0016F48A /* bg_upcoming.jpg in Resources */,
 				873229B31CB51A280016F48A /* ic_arrow_prev.png in Resources */,
 				873229A91CB51A280016F48A /* bg_f1_top.jpg in Resources */,
 				873229B71CB51A280016F48A /* ic_page_last.png in Resources */,
@@ -398,9 +473,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8732296D1CB514B90016F48A /* ViewController.swift in Sources */,
+				873229F01CB7AE2D0016F48A /* MSFsPageViewController.swift in Sources */,
 				8732296B1CB514B90016F48A /* AppDelegate.swift in Sources */,
 				873229C91CB51AC80016F48A /* MSHomeViewController.swift in Sources */,
+				873229EB1CB7A8550016F48A /* MSHomePageViewController.swift in Sources */,
+				873229E51CB637FE0016F48A /* MSHomeNoLoginViewController.swift in Sources */,
+				873229F41CB7B8780016F48A /* MSScPageViewController.swift in Sources */,
+				873229F81CB7BDA90016F48A /* MsInitialPageViewController.swift in Sources */,
+				873229E11CB62F130016F48A /* MSUpcomingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

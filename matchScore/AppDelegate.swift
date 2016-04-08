@@ -12,10 +12,38 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
+    var homeLoginVC: UIViewController?
+    var homeNoLoginVC: UIViewController?
+    var homePageVC: UIViewController?
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        
+//        homeLoginVC  = MSHomeViewController(nibName:"MSHomeViewController",bundle:nil)
+//        
+//        // navigationController
+//        let navigationController = UINavigationController(rootViewController: homeLoginVC!)
+//        
+//        let frame = UIScreen.mainScreen().bounds
+//        window = UIWindow(frame: frame)
+//        
+//        window!.rootViewController = navigationController
+//        window!.makeKeyAndVisible()
+        
+//        homeNoLoginVC  = MSHomeNoLoginViewController(nibName:"MSHomeNoLoginViewController",bundle:nil)
+
+        
+        homePageVC = MsInitialPageViewController(nibName: "MsInitialPageViewController", bundle: nil)
+//        // navigationController
+//        let navigationController = UINavigationController(rootViewController: homeNoLoginVC!)
+        
+        let frame = UIScreen.mainScreen().bounds
+        window = UIWindow(frame: frame)
+        
+        window!.rootViewController = homePageVC
+        window!.makeKeyAndVisible()
+        
         return true
     }
 
